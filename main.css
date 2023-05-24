@@ -1,0 +1,138 @@
+*{
+    /* border: 1px solid red; */
+    font-family: "Amazon Ember", Arial, sans-serif
+}
+.header-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15vw;
+    height: auto;
+}
+
+.form{
+    position: relative; 
+    margin: auto;
+    padding-right: 1vw;
+    padding-left: 2vw;
+    padding-bottom: 1vw;
+    width: 20vw;
+    border: 1px solid #D3D3D3;
+    border-radius: 3px;
+    margin-top: 3vh;
+}
+#sign-in{
+    font-size: 25px;
+    margin-bottom: -2vh;
+    text-align: left;
+    font-weight: normal;
+}
+#pass-forgot{
+    margin-left: 8vw;
+}
+
+#continue{
+    text-align: center;
+    font-size: 10px;
+    width: 93.5%;
+    height: 4vh;
+    background-color: #ff9900; 
+    border-radius: 2px; 
+    border: 1px solid black;
+    color:black
+}
+input {
+    width: 90%;
+    color: darkgray;
+}
+
+.link a{
+    color:#146eb4;
+    text-decoration: none;
+}
+label{
+    font-size: 11px;  
+}
+
+#new{
+    text-align: center;
+    color: darkgray;
+    font-size: 12px;
+    margin-top: 1vh;
+}
+
+.new-lines:before{
+    content:" ";
+    display: block;
+    height: .2vh;
+    width: 7vw;
+    position: absolute;
+    top: 82vh;
+    left: 39vw;
+    background: lightgray;
+  }
+
+.new-lines::after{
+    content:" ";
+    display: block;
+    height: .2vh;
+    width: 7vw;
+    position: absolute;
+    top: 82vh;
+    right: 39vw;
+    background: lightgray;
+  }
+  
+
+#create{
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    border-radius: 2px;
+    padding: 1vh 1vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    width: 19vw;
+    position: relative; 
+    margin: auto;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+    
+}
+nav li{
+    display: inline;
+    margin: 0px;
+    align-items: center;
+    width: 100%;
+    padding: 1%;
+    font-size: 10px;
+}
+nav ul{
+    padding: .7%;
+    width: 98.4%;
+}
+
+nav a{
+    color:#146eb4;
+    text-decoration: none;
+}
+.navigation{
+    float: left;
+    position: relative; 
+    margin: auto;
+    margin-bottom: 0;
+    width: 98.4%;
+    height: 70px;
+    top: -17px;
+    text-align: center;
+    color: black;
+    padding-top: 5vh;
+    padding-bottom: 0vh;
+    line-height: .2;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 10px;
+    line-height: .2;
+}
